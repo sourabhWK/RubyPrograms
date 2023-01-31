@@ -8,13 +8,9 @@ Git is a distributed version control system that keeps track of changes made to 
 
 To get started with Git, you will need to install it on your computer. This can usually be done by downloading the appropriate package for your operating system from the official Git website. Once you have Git installed, you can create a new repository by navigating to the directory that contains your code and running the following command:
 
-csharp
-Copy code
 git init
 This will create a new Git repository in the current directory. You can then add your code to the repository and make your first commit. A commit is a snapshot of your code that you can use to revert to later if necessary. To make your first commit, you will need to run the following commands:
 
-sql
-Copy code
 git add .
 git commit -m "Initial commit"
 Getting Started with GitHub
@@ -23,8 +19,6 @@ GitHub is a platform that provides hosting for Git repositories, along with a su
 
 To get started with GitHub, you will need to create a new account on the GitHub website. Once you have created your account, you can create a new repository by clicking the "New repository" button on the GitHub homepage. You can then upload your code to the repository using Git. To do this, you will need to run the following commands:
 
-csharp
-Copy code
 git remote add origin https://github.com/yourusername/yourrepository.git
 git push -u origin master
 Advanced Topics in Git and GitHub
